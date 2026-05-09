@@ -22,7 +22,7 @@ const ProjectItem = ({description, title, tech, github, year, demo, num, images,
       className={`object-cover ${num % 2 !== 0 ? "rounded-r-full" : "rounded-l-full"}`}
       alt={title}
     /> */}
-    <Slideshow num={num} images={images}/>
+    <Slideshow images={images}/>
   </div>
   <div className='mx-10 flex flex-col w-1/2 overflow-hidden'>
     <div className='flex justify-between'>
